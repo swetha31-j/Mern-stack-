@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swetha J - Professional Portfolio</title>
+
+    <style>
+/* ===============================
+   GLOBAL STYLING
+=================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* ===============================
+   HEADER SECTION
+=================================*/
+
+header {
+    background: linear-gradient(to right, #1f3c88, #39a2db);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* ===============================
+   NAVIGATION
+=================================*/
+
+nav {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1f3c88;
+    border-bottom: 2px solid #1f3c88;
+}
+
+/* ===============================
+   SECTION STYLE
+=================================*/
+
+section {
+    background: #ffffff;
+    margin: 30px auto;
+    padding: 40px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    color: #1f3c88;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    color: #39a2db;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* ===============================
+   LISTS
+=================================*/
+
+ol, ul {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===============================
+   PROGRESS BAR
+=================================*/
+
+progress {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+/* ===============================
+   TABLE
+=================================*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #1f3c88;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ===============================
+   IMAGE
+=================================*/
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 50%;
+    border: 4px solid #1f3c88;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* ===============================
+   FORM
+=================================*/
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #1f3c88;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #39a2db;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f3c88;
+    color: white;
+    margin-top: 40px;
+}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Swetha J</h1>
+    <p>Aspiring Web Developer | Creative Thinker | Lifelong Learner</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is <strong>Swetha J</strong>. I am a passionate college student
+        with strong interest in web development and programming.
+        I believe in consistency, dedication, and continuous self-improvement.
+    </p>
+
+    <h3>My Goal</h3>
+    <p>
+        My goal is to become a professional Full Stack Developer
+        and create innovative and meaningful digital solutions.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills & Interests</h2>
+
+    <h3>Technical Skills</h3>
+    <ol>
+        <li>HTML</li>
+        <li>Basic Java</li>
+        <li>C Programming</li>
+    </ol>
+
+    <h3>Hobbies</h3>
+    <ul>
+        <li>Reading Self-Development Books</li>
+        <li>Listening to Music</li>
+        <li>Cooking</li>
+    </ul>
+
+    <h3>Skill Progress</h3>
+    <label>HTML</label>
+    <progress value="80" max="100"></progress>
+
+    <label>Java</label>
+    <progress value="60" max="100"></progress>
+
+    <label>C Programming</label>
+    <progress value="70" max="100"></progress>
+</section>
+
+<section id="academics">
+    <h2>Academic Details</h2>
+
+    <table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>90</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>Computer Science</td>
+            <td>95</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>85</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>88</td>
+            <td>A</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <label>Full Name:</label>
+        <input type="text">
+
+        <label>Email:</label>
+        <input type="email">
+
+        <label>Country:</label>
+        <select>
+            <option>India</option>
+            <option>Canada</option>
+            <option>Australia</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Swetha J. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+                                                                                  
