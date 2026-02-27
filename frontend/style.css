@@ -1,0 +1,69 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+/* Container */
+#topicsContainer {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Card Style */
+.topic-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.topic-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Subject Title */
+.topic-card h3 {
+    margin-top: 0;
+    color: #4a00e0;
+    font-size: 22px;
+}
+
+/* Paragraph Styling */
+.topic-card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+/* Topics List */
+.topic-card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.topic-card ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Difficulty Badge */
+.topic-card p strong {
+    color: #333;
+}
